@@ -7,7 +7,10 @@
     android:onClick="sendMessage"
     tools:context=".MainActivity">
 
+    <!--        你要是想在 MainActivity 里 findViewById 的话，这里要定义 这个view 的id-->
+<!--    另外 onclick 一般不放在 layout 里，放在 view 里，比如 image，button，EditText 上-->
     <TextView
+        android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"

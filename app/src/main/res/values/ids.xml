@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="editText" type="id">android:id="@+id/editText" android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-    </item>
+<!--    <item name="editText" type="id">android:id="@+id/editText" android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--    </item>-->
+<!--    -->
+<!--    看一下这个 andorid doc： https://developer.android.com/guide/topics/resources/providing-resources-->
+<!--    好像只有10种东西可以被放在 resoure tag 里：-->
+<!--    1） animator-->
+<!--    2）anim-->
+<!--    3) color-->
+<!--    4) drawable-->
+<!--    5) mipmap-->
+<!--    ...-->
+<!--    -->
+<!--    我猜 item 应该不可以放在 <resource/> tag 里 -->
+
 </resources>
